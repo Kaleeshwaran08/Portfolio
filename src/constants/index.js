@@ -13,7 +13,7 @@ export const EXPERIENCES = [
   {
     year: "11/2020 - 06/2022",
     role: "Software testing And Document Specialist",
-    company: "Datatracks.",
+    company: "DataTracks - India , Chennai",
     description: `Developed and executed detailed test plans and test cases using Python testing frameworks like pytest and unittest. Conducted thorough manual and automated testing, ensuring software functionality, performance, and security. Utilized CI/CD pipelines for regression testing. Gained proficiency in XBRL and iXBRL standards. Ensured accuracy and completeness through meticulous document review and organization.`,
     technologies: ["Testing", "CI/CD", "Test Plan Development", "XBRL/iXBRL "],
   },

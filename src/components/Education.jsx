@@ -21,8 +21,9 @@ const Education = () => {
               transition={{ duration: 1 }}
               className="w-full lg:w-1/4 mb-4 lg:mb-0 text-center lg:text-left"
             >
+              {/* <p className="text-sm text-neutral-400">{education.place}</p> */}
+
               <p className="mb-2 text-sm text-neutral-400">{education.year}</p>
-              <p className="text-sm text-neutral-400">{education.place}</p>
             </motion.div>
             <motion.div 
               whileInView={{ opacity: 1, x: 0 }}
@@ -31,6 +32,9 @@ const Education = () => {
               className="w-full max-w-xl lg:w-3/4 text-center lg:text-left"
             >
               <h6 className="mb-4 font-neutral-400 text-center lg:text-left">
+                {education.place}
+              </h6>
+              <h6 className="mb-2 font-semibold text-center lg:text-left">
                 {education.collage}
               </h6>
               <p className="mb-4 font-neutral-400 text-center lg:text-left">{education.subject}</p>

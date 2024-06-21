@@ -1,5 +1,4 @@
 import { HERO_CONTENT } from "../constants";
-// import profilePic from "../assets/kevinRushProfile.png"; // Assuming this is the correct profile picture import
 import profilePic from "../assets/hero.jpeg"; // Assuming this is the correct profile picture import
 
 // Import animation
@@ -55,17 +54,16 @@ const ResumeDownloadButton = () => (
 const Hero = () => {
     return (
         <div className="border-b border-neutral-900 pb-4 lg:mb-35">
-            <div className="flex flex-wrap">
-                <div className="w-full lg:w-1/2">
-                    <div className="flex flex-col items-center lg:items-start">
-                        
+            <div className="container mx-auto flex flex-wrap lg:flex-nowrap items-center">
+                <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
+                    <div className="flex flex-col items-center lg:items-center">
                         <motion.h1 
                             variants={container(0)}
                             initial='hidden'
                             animate='visible'
-                            className="pb-8 text-4xl font-thin tracking-tight lg:mt-16 lg:text-6xl"
+                            className="pb-4 text-4xl font-thin tracking-tight text-center lg:text-left lg:text-5xl" 
                         >
-                            Kaleeshwaran 
+                            Kaleeshwaran Arumugam
                         </motion.h1>
     
                         <motion.span 
@@ -79,24 +77,22 @@ const Hero = () => {
                             variants={container(1)}
                             initial='hidden'
                             animate='visible'
-                            className="my-2 max-w-xl py-6 font-light tracking-tighter text-center lg:text-left">
+                            className="my-4 max-w-xl py-2 font-light tracking-tighter text-center lg:text-center">
+                                
                             {HERO_CONTENT}
                         </motion.p>
                         <ResumeDownloadButton /> {/* Add the download button here */}
                     </div>
                 </div>
-                <div className="w-full lg:w-1/2 lg:p-8">
-                    <div className="flex justify-center lg:justify-end w-550 h-550">
-                        <motion.img 
-                            initial={{ x: 100, opacity: 0 }}
-                            animate={{ x: 0, opacity: 1 }}
-                            transition={{ duration: 0.5, delay: 0.4 }}
-                            style={{ width: '500px', height: '500px' }} // Inline styles for width and height
-                            className="rounded-lg"
-                            src={profilePic} 
-                            alt="Kevin Rush" 
-                        />
-                    </div>
+                <div className="w-full lg:w-1/2 flex justify-center lg:justify-center">
+                    <motion.img 
+                        initial={{ x: 100, opacity: 0 }}
+                        animate={{ x: 0, opacity: 1 }}
+                        transition={{ duration: 0.5, delay: 0.4 }}
+                        className="rounded-lg w-82 h-80 lg:w-92 lg:h-96 object-cover" // Increased width and height
+                        src={profilePic} 
+                        alt="Kaleeshwaran" 
+                    />
                 </div>
             </div>
         </div>

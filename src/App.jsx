@@ -20,8 +20,8 @@ function App() {
         <About />
         <Technologies />
         <Experience />
-        <Education />
         <Projects />
+        <Education />
         <Contact />
       </div>
 
