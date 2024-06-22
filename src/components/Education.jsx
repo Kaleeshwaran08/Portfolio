@@ -31,13 +31,15 @@ const Education = () => {
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4 text-center lg:text-left"
             >
-              <h6 className="mb-4 font-neutral-400 text-center lg:text-left">
-                {education.place}
-              </h6>
+
               <h6 className="mb-2 font-semibold text-center lg:text-left">
                 {education.collage}
               </h6>
               <p className="mb-4 font-neutral-400 text-center lg:text-left">{education.subject}</p>
+
+              <h6 className="mb-4 font-neutral-400 text-center lg:text-left">
+                {education.place}
+              </h6>
               <div className="mb-4 font-neutral-400 text-center lg:text-left">
                 {education.skills.map((skill, index) => (
                   <span key={index} className="mr-2 mb-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900">{skill}</span>

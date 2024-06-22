@@ -7,7 +7,7 @@ export const HERO_CONTENT = `Welcome to my portfolio. I am a data science and ma
 
 I have applied advanced regression techniques, classification, and clustering methods to predict outcomes and extract meaningful patterns from data. My proficiency in Python, SQL, Power BI, and matplotlib enables me to present data-driven insights clearly and effectively. My dedication to continuous learning and passion for data science drive me to deliver high-quality, impactful results.`;
 
-export const ABOUT_TEXT = `I specialize in statistical analysis, machine learning, and data science. I have expertise in uncovering patterns and insights from large datasets and have successfully completed projects utilizing Python and SQL for extensive data analysis. I am proficient in Power BI and matplotlib, allowing me to create compelling visualizations that effectively communicate findings to stakeholders. My capstone project enhanced my skills in classification, clustering, regression analysis, and feature engineering to predict house prices. Additionally, my experience as a software tester at Data Tracks helped me develop and execute test cases, debug Python scripts, and ensure software performance and quality. This role sharpened my attention to detail, problem-solving abilities, and proficiency in Python—essential attributes for a successful career in data science and machine learning.`;
+export const ABOUT_TEXT = `At the University of East London, I focused on statistical analysis, machine learning, and data science. I'm skilled in finding patterns and insights to inform strategic choices, having finished projects involving the analysis of huge datasets using Python and SQL. I know how to use Power BI and matplotlib to create graphics that clearly convey findings to stakeholders. My capstone project greatly improved my skills in classification and clustering challenges by applying regression analysis and feature engineering to anticipate house prices. I developed expertise in developing and carrying out test cases, debugging Python scripts, and guaranteeing software performance and quality while working as a software tester at DataTracks. My ability to pay close attention to detail, solve problems, and be proficient in Python were all refined in this role—qualities that are crucial for a career in data science and machine learning.`;
 
 export const EXPERIENCES = [
   {
@@ -75,7 +75,7 @@ export const PROJECTS = [
 export const EDUCATION = [
   {
     year: "08/2022 - 08/2023",
-    place: "University of East London",
+    place: "University of East London, London, United Kingdom",
     // collage: "University of East London 2022",
     subject: "MSC. Artificial Intelligence",
     skills: [" Data science", " Data analytics", "Machine Learning", "AI",]
