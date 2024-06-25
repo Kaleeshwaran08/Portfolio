@@ -62,13 +62,13 @@ export const PROJECTS = [
       "This project focuses on developing a clustering or recommendation system using Pyspark's clustering library to implement a KMeans model, emphasizing feature selection for optimal performance. It includes an overview of a real-time streaming application, addressing Legal, Social, and Ethical (LSE) considerations. The project aims to apply unsupervised learning techniques, integrating a recommendation system or clustering methodology with a metaclassifier using ensemble techniques. By enabling data-driven decisions, it provides insights into customer financial management and repayment patterns for both customers and financial institutions.",
     technologies: ["Clustering Algorithms", "Feature SelectionCSS", "Real-Time Data Streaming", "Data-driven Decision Making"],
   },
-  // {
-  //   title: "Blogging Platform",
-  //   image: project4,
-  //   description:
-  //     "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-  //   technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  // },
+  {
+    title: "Data-science-Image-classification",
+    image: project4,
+    description:
+      "The Sports Person Image Classification project focuses on accurately identifying and categorizing sports celebrities using advanced machine learning techniques. Our initiative provides specialized image classification models designed for researchers, developers, and sports enthusiasts. Powered by Flask, our platform enables easy deployment of these models, supporting applications in sports analytics and fan engagement.Our approach emphasizes scalability and accuracy, making it ideal for diverse use cases in sports media and marketing. With ongoing updates and community support, we ensure continuous improvement and relevance in sports technology.",
+    technologies: ["Python", "Data analysis", "Machine learning", "Image processing"],
+  },
 ];
 
 
