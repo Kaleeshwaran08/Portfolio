@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.jpg"
 
 export const HERO_CONTENT = `Welcome to my portfolio. I am a data science and machine learning enthusiast with a strong foundation in statistical analysis and data-driven decision-making. My academic journey at the University of East London and professional experience as a software tester have equipped me with the skills to analyze large datasets, develop predictive models, and create insightful visualizations.
 
@@ -69,6 +70,15 @@ export const PROJECTS = [
       "The Sports Person Image Classification project focuses on accurately identifying and categorizing sports celebrities using advanced machine learning techniques. Our initiative provides specialized image classification models designed for researchers, developers, and sports enthusiasts. Powered by Flask, our platform enables easy deployment of these models, supporting applications in sports analytics and fan engagement.Our approach emphasizes scalability and accuracy, making it ideal for diverse use cases in sports media and marketing. With ongoing updates and community support, we ensure continuous improvement and relevance in sports technology.",
     technologies: ["Python", "Data analysis", "Machine learning", "Image processing"],
   },
+  {
+    title: "House-predictions-Data-Science",
+    image: project5,
+    description:
+      "Drawing from my knowledge and experience in Machine Learning, I have studied various approaches to solve ML problems, including selecting relevant columns, addressing missing data, repairing categorical columns, testing data in various ways based on our initial hypotheses, and utilizing modules to forecast the result. In order to manage tasks like preparation and output calculation for the test data, I also built a pipeline. The data is present in train.csv. To understand the data, please read data_description.txt. Download the repository, making sure that train.csv and Housing Price Analysis.ipynb are in the same folder. Now you can run the whole Notebook (Housing Price Analysis.ipynb) from top to bottom.",
+    technologies: ["Python", "Future Engineering", "Data analysis", "Machine learning"],
+  },
+
+
 ];
 
 
