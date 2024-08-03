@@ -2,7 +2,8 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
-import project5 from "../assets/projects/project-5.jpg"
+import project5 from "../assets/projects/project-5.jpg";
+import project6 from "../assets/projects/project-6.jpg"
 
 export const HERO_CONTENT = `Welcome to my portfolio. I am a data science and machine learning enthusiast with a strong foundation in statistical analysis and data-driven decision-making. My academic journey at the University of East London and professional experience as a software tester have equipped me with the skills to analyze large datasets, develop predictive models, and create insightful visualizations.
 
@@ -77,7 +78,13 @@ export const PROJECTS = [
       "Drawing from my knowledge and experience in Machine Learning, I have studied various approaches to solve ML problems, including selecting relevant columns, addressing missing data, repairing categorical columns, testing data in various ways based on our initial hypotheses, and utilizing modules to forecast the result. In order to manage tasks like preparation and output calculation for the test data, I also built a pipeline. The data is present in train.csv. To understand the data, please read data_description.txt. Download the repository, making sure that train.csv and Housing Price Analysis.ipynb are in the same folder. Now you can run the whole Notebook (Housing Price Analysis.ipynb) from top to bottom.",
     technologies: ["Python", "Future Engineering", "Data analysis", "Machine learning"],
   },
-
+  {
+    title: "HR-Data-Analytics-Tableau",
+    image: project6,
+    description:
+      "The goal of this Tableau project on HR analytics is to give HR managers and corporate executives a thorough method to track, analyze, and make decisions about hiring, development, and retention of employees based on data.HR managers can use the trendline and target line features to monitor their progress in lowering attrition. Charts displaying the employee distribution and attrition rate by age group, gender, work satisfaction, and educational field are included. HR managers can delve deeper and examine the data further with the help of interactive filters and legends on the chart.",
+    technologies: ["Advance Excel", "Tableau", "Statistics"],
+  },
 
 ];
 
